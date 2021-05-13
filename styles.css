@@ -1,0 +1,207 @@
+
+.banner h1{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 2em;
+color:white;
+font-style:initial;
+text-transform: uppercase;
+display: flex;
+justify-content: center;
+
+}
+
+
+
+.banner p{
+
+    text-align: center;
+    font-style: inherit;
+    color:white;
+    width: 50%;
+    display: flex;
+    margin: auto;
+   opacity: 0.6;
+
+          
+}
+
+
+.child{
+    position: relative;
+display: flex;
+margin-bottom: 200px;
+text-align:center;
+width: 50%;;
+float:left;
+}
+
+.parent{
+
+margin-top: 400px;
+
+}
+
+.child h1{
+text-align: center;
+margin: auto;
+justify-content:center;
+display: flex;
+
+}
+
+.child p{ 
+    justify-content: center;
+    font-size: small;
+    margin-top: 20px;   
+text-align: center;
+margin-left: 100px;
+margin-right: 0px;
+}
+
+.image img{
+margin-left: 50px;
+border-radius: 40px;
+ 
+}
+
+.banner{
+
+position:relative;
+background: url(images/IT.jpg);
+
+min-height: 90vh;
+background-size: cover;
+
+background-position: center;
+padding: 250px 0 200px;
+}
+
+
+.navbar-nav{
+
+    margin-left: auto;
+}
+
+/* leadership css */
+
+#left{
+float: left;
+margin-right: 150px;
+
+}
+#right{
+ margin: auto;
+    float:left;
+   
+}
+#center{
+float: left;
+margin-right: 150px;
+}
+
+.leader{
+    
+margin-top: 600px;
+position:relative;
+margin-bottom: 500px;
+display: block;
+}
+
+.leader h1{
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+margin-bottom: 20px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+#left h1{
+color: black;
+font-size: 30px;
+font-weight: bold;
+
+}
+#right h4{
+font-style: normal;
+}
+#right h1{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    
+    }
+    #left h4{
+    font-style: normal;
+    }
+
+
+    #center h1{
+        color: black;
+        font-size: 30px;
+        font-weight: bold;
+        
+        }
+        #center h4{
+        font-style: normal;
+        }
+
+/* our team  */
+
+.carousel{
+
+    margin-left: 300px;
+   
+     display:block;
+
+
+}
+
+.people h1{
+
+text-align: center;
+
+
+}
+
+.people{
+
+  
+    margin-top: 500px;
+    position:inherit;
+    margin-bottom: 400px;
+    display:flex;
+
+}
+.slider{
+       
+    position:relative;
+}
+
+.upper{
+
+    margin-top: 300px;
+}
+.side1{
+
+float: left;
+
+margin-left: 200px;
+
+}
+.side1 h2{
+
+margin-bottom: 300px;
+
+}
+
+.side2{
+
+
+    margin-left :900px; ;
+}
+.lower{
+
+margin-top: 200px;
+
+
+}
